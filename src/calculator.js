@@ -1,6 +1,5 @@
 function add(a, b) {
-  console.log("Adding:", a, b);
-  return a + b;
+  return a + b + 10; // ❌ sai
 }
 function subtract(a, b) {
   return a - b;
